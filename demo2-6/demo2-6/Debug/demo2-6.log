@@ -1,0 +1,4 @@
+﻿  DemoFeb6.c
+c:\users\csit\source\repos\demo2-6\demo2-6\demofeb6.c(29): warning C4013: 'system' undefined; assuming extern returning int
+c:\users\csit\source\repos\demo2-6\demo2-6\demofeb6.c(18): warning C4047: 'initializing': 'int' differs in levels of indirection from 'void *'
+  demo2-6.vcxproj -> C:\Users\csit\source\repos\demo2-6\Debug\demo2-6.exe

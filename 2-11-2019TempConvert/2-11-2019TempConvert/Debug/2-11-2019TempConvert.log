@@ -1,0 +1,4 @@
+﻿  TempConvert.c
+c:\users\csit\source\repos\2-11-2019tempconvert\2-11-2019tempconvert\tempconvert.c(20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\csit\source\repos\2-11-2019tempconvert\2-11-2019tempconvert\tempconvert.c(26): warning C4013: 'system' undefined; assuming extern returning int
+  2-11-2019TempConvert.vcxproj -> C:\Users\csit\source\repos\2-11-2019TempConvert\Debug\2-11-2019TempConvert.exe

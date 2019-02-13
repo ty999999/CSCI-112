@@ -1,0 +1,5 @@
+﻿  MetalsLab.c
+c:\users\csit\source\repos\metalslab\metalslab\metalslab.c(60): warning C4013: 'system' undefined; assuming extern returning int
+c:\users\csit\source\repos\metalslab\metalslab\metalslab.c(21): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\csit\source\repos\metalslab\metalslab\metalslab.c(22): warning C4305: 'initializing': truncation from 'double' to 'float'
+  MetalsLab.vcxproj -> c:\users\csit\source\repos\MetalsLab\Debug\MetalsLab.exe

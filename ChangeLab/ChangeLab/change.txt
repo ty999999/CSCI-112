@@ -1,0 +1,11 @@
+    Cost:  21.17
+Tendered: 100.00
+----------------
+  Twenty: 3
+     Ten: 1
+    Five: 1
+     One: 3
+ Quarter: 3
+    Dime: 0
+  Nickel: 1
+   Penny: 3

@@ -1,0 +1,5 @@
+﻿  change.c
+c:\users\thecr\source\repos\changelab\changelab\change.c(27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\thecr\source\repos\changelab\changelab\change.c(56): warning C4013: 'system' undefined; assuming extern returning int
+c:\users\thecr\source\repos\changelab\changelab\change.c(18): warning C4305: 'initializing': truncation from 'double' to 'float'
+  ChangeLab.vcxproj -> C:\Users\thecr\source\repos\ChangeLab\Debug\ChangeLab.exe

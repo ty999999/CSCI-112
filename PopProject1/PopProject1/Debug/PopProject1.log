@@ -1,0 +1,4 @@
+﻿  PopProject1.c
+c:\users\csit\source\repos\popproject1\popproject1\popproject1.c(46): warning C4013: 'system' undefined; assuming extern returning int
+c:\users\csit\source\repos\popproject1\popproject1\popproject1.c(61): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  PopProject1.vcxproj -> C:\Users\csit\source\repos\PopProject1\Debug\PopProject1.exe

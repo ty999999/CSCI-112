@@ -1,0 +1,6 @@
+﻿  InClassAssignment.c
+c:\users\csit\source\repos\inclassassignment\inclassassignment\inclassassignment.c(35): warning C4013: 'system' undefined; assuming extern returning int
+c:\users\csit\source\repos\inclassassignment\inclassassignment\inclassassignment.c(44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\csit\source\repos\inclassassignment\inclassassignment\inclassassignment.c(46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\csit\source\repos\inclassassignment\inclassassignment\inclassassignment.c(50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  InClassAssignment.vcxproj -> C:\Users\csit\source\repos\InClassAssignment\Debug\InClassAssignment.exe

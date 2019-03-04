@@ -1,0 +1,3 @@
+﻿  ShowIf.c
+c:\users\csit\source\repos\3-4-2019demoproject\3-4-2019demoproject\showif.c(34): warning C4013: 'system' undefined; assuming extern returning int
+  3-4-2019DemoProject.vcxproj -> C:\Users\csit\source\repos\3-4-2019DemoProject\Debug\3-4-2019DemoProject.exe

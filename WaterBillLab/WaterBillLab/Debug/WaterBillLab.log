@@ -1,0 +1,6 @@
+﻿  waterbill.c
+c:\users\csit\source\repos\waterbilllab\waterbilllab\waterbill.c(44): warning C4013: 'system' undefined; assuming extern returning int
+c:\users\csit\source\repos\waterbilllab\waterbilllab\waterbill.c(55): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\csit\source\repos\waterbilllab\waterbilllab\waterbill.c(58): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\csit\source\repos\waterbilllab\waterbilllab\waterbill.c(61): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  WaterBillLab.vcxproj -> C:\Users\csit\source\repos\WaterBillLab\Debug\WaterBillLab.exe

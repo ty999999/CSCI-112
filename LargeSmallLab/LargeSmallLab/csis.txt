@@ -1,0 +1,8 @@
+Maximum: 82
+Minimum: 28
+Maximum: 22
+Minimum: 6
+Maximum: 38
+Minimum: 12
+Maximum: 98
+Minimum: 22

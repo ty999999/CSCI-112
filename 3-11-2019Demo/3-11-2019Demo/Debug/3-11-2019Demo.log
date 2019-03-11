@@ -1,0 +1,7 @@
+﻿  Source.c
+c:\users\csit\source\repos\3-11-2019demo\3-11-2019demo\source.c(31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\csit\source\repos\3-11-2019demo\3-11-2019demo\source.c(33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\csit\source\repos\3-11-2019demo\3-11-2019demo\source.c(35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\csit\source\repos\3-11-2019demo\3-11-2019demo\source.c(37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\csit\source\repos\3-11-2019demo\3-11-2019demo\source.c(47): warning C4013: 'system' undefined; assuming extern returning int
+  3-11-2019Demo.vcxproj -> C:\Users\csit\source\repos\3-11-2019Demo\Debug\3-11-2019Demo.exe

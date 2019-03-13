@@ -1,0 +1,4 @@
+﻿  FishFry.c
+c:\users\csit\source\repos\fishfry\fishfry\fishfry.c(23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\csit\source\repos\fishfry\fishfry\fishfry.c(28): warning C4013: 'system' undefined; assuming extern returning int
+  FishFry.vcxproj -> C:\Users\csit\source\repos\FishFry\Debug\FishFry.exe

@@ -1,0 +1,3 @@
+﻿  demo.c
+c:\users\csit\source\repos\demo4-8-2019\demo4-8-2019\demo.c(41): warning C4013: 'system' undefined; assuming extern returning int
+  Demo4-8-2019.vcxproj -> C:\Users\csit\source\repos\Demo4-8-2019\Debug\Demo4-8-2019.exe

@@ -1,0 +1,9 @@
+﻿  Source.c
+c:\users\csit\source\repos\ohmystrings\ohmystrings\source.c(18): warning C4013: 'gets' undefined; assuming extern returning int
+c:\users\csit\source\repos\ohmystrings\ohmystrings\source.c(19): warning C4013: 'strcpy' undefined; assuming extern returning int
+c:\users\csit\source\repos\ohmystrings\ohmystrings\source.c(27): warning C4013: 'strtok' undefined; assuming extern returning int
+c:\users\csit\source\repos\ohmystrings\ohmystrings\source.c(27): warning C4047: '=': 'char *' differs in levels of indirection from 'int'
+c:\users\csit\source\repos\ohmystrings\ohmystrings\source.c(28): warning C4047: '=': 'char *' differs in levels of indirection from 'int'
+c:\users\csit\source\repos\ohmystrings\ohmystrings\source.c(34): warning C4013: 'strcat' undefined; assuming extern returning int
+c:\users\csit\source\repos\ohmystrings\ohmystrings\source.c(44): warning C4013: 'system' undefined; assuming extern returning int
+  OhMyStrings.vcxproj -> C:\Users\csit\source\repos\OhMyStrings\Debug\OhMyStrings.exe

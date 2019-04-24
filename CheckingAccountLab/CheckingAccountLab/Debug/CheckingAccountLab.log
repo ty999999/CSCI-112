@@ -1,0 +1,4 @@
+﻿  check.c
+c:\users\csit\source\repos\checkingaccountlab\checkingaccountlab\check.c(30): warning C4013: 'exit' undefined; assuming extern returning int
+c:\users\csit\source\repos\checkingaccountlab\checkingaccountlab\check.c(67): warning C4013: 'system' undefined; assuming extern returning int
+  CheckingAccountLab.vcxproj -> C:\Users\csit\source\repos\CheckingAccountLab\Debug\CheckingAccountLab.exe

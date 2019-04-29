@@ -71,6 +71,8 @@ int main() {
 void outputHeaders() {
 	printf("%-18s%10s%10s%10s\n", "Transaction", "Deposit", "Check", "Balance");
 	printf("%-18s%10s%10s%10s\n", "-----------", "-------", "-----", "-------");
+	fprintf(fpOut, "%-18s%10s%10s%10s\n", "Transaction", "Deposit", "Check", "Balance");
+	fprintf(fpOut, "%-18s%10s%10s%10s\n", "-----------", "-------", "-----", "-------");
 }
 
 void initialBalance(double amount, double *balance, double *service, double *openBalance) {
@@ -78,6 +80,7 @@ void initialBalance(double amount, double *balance, double *service, double *ope
 	*openBalance = amount;
 	*service += 3.0;
 	printf("%-18s%10s%10s%10.2lf\n", "Initial Balance", "", "", *balance);
+	fprintf(fpOut, "%-18s%10s%10s%10.2lf\n", "Initial Balance", "", "", *balance);
 }
 
 void deposit(double amount, double *balance, double *service, int *numDeposit, double *amtDeposit) {
@@ -86,6 +89,7 @@ void deposit(double amount, double *balance, double *service, int *numDeposit, d
 	*numDeposit += 1;
 	*service += .03;
 	printf("%-18s%10.2lf%10s%10.2lf\n", "Deposit", amount, "", *balance);
+	fprintf(fpOut, "%-18s%10.2lf%10s%10.2lf\n", "Deposit", amount, "", *balance);
 }
 
 void check(double amount, double *balance, double *service, int *numCheck, double *amtCheck) {
@@ -96,6 +100,7 @@ void check(double amount, double *balance, double *service, int *numCheck, doubl
 	if (*balance < 0.0)
 		*service += 5.0;
 	printf("%-18s%10s%10.2lf%10.2lf\n", "Check", "", amount, *balance);
+	fprintf(fpOut, "%-18s%10s%10.2lf%10.2lf\n", "Check", "", amount, *balance);
 }
 
 void outputSummary(int numDeposit, double amtDeposit, int numCheck, double amtCheck, double openBalance, double service, double closeBalance) {
@@ -109,5 +114,17 @@ void outputSummary(int numDeposit, double amtDeposit, int numCheck, double amtCh
 
 	printf("%21s: %.2lf\n", "Opening balance", openBalance);
 	printf("%21s: %.2lf\n", "Closing balance", closeBalance);
+
+//
+	fprintf(fpOut, "\n%21s: %d\n", "Total number deposits", numDeposit);
+	fprintf(fpOut, "%21s: %.2lf\n\n", "Total amount deposits", amtDeposit);
+
+	fprintf(fpOut, "%21s: %d\n", "Total number checks", numCheck);
+	fprintf(fpOut, "%21s: %.2lf\n\n", "Total amount checks", amtCheck);
+
+	fprintf(fpOut, "%21s: %.2lf\n\n", "Total service charge", service);
+
+	fprintf(fpOut, "%21s: %.2lf\n", "Opening balance", openBalance);
+	fprintf(fpOut, "%21s: %.2lf\n", "Closing balance", closeBalance);
 
 }

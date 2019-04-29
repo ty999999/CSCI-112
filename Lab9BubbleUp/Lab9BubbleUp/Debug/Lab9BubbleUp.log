@@ -1,0 +1,4 @@
+﻿  source.c
+c:\users\csit\source\repos\lab9bubbleup\lab9bubbleup\source.c(22): warning C4013: 'system' undefined; assuming extern returning int
+c:\users\csit\source\repos\lab9bubbleup\lab9bubbleup\source.c(23): warning C4013: 'exit' undefined; assuming extern returning int
+  Lab9BubbleUp.vcxproj -> C:\Users\csit\source\repos\Lab9BubbleUp\Debug\Lab9BubbleUp.exe

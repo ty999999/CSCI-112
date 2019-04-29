@@ -1,8 +1,8 @@
 
 /********************************/
 /*  Programmer: Daniel Murdock  */
-/*     Project: C Project #     */
-/*         Demo Project         */
+/*     Project: C Project #10   */
+/*       How about a date       */
 /*        MoWe  CSCI 112        */
 /********************************/
 
@@ -20,6 +20,10 @@ int main() {
 	//Retrieves the date from the user
 	printf("Please enter the date in MM/DD/YYYY format: ");
 	gets(date);
+	while (strlen(date) != 10) {
+		printf("You entered the date incorrectly, please try again in MM/DD/YYYY format: ");
+		gets(date);
+	}
 	
 	//Checks to see if the date is valid and displays result
 	if (dateCheck(date))
@@ -33,7 +37,7 @@ int main() {
 
 //Function to check to see if the given date is valid
 int dateCheck(char *date) {
-	int boolean, imonth, iday, iyear;
+	int imonth, iday, iyear;
 	char *day, *month, *year;
 
 	//Breaks the single entered string into differing day, month, and year variables
@@ -47,7 +51,7 @@ int dateCheck(char *date) {
 	iyear = atoi(year);
 
 	//Initial check to make sure that year and month are valid
-	if (valid(imonth, 12) || valid(iyear, 9999)) 
+	if (!valid(imonth, 12) || !valid(iyear, 9999)) 
 		return 0;
 	else {
 		//Checks to see if the month is an odd month (has an odd number of days)

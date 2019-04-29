@@ -25,6 +25,7 @@ int main() {
 	double amtCheck, amtDeposit, openBalance, closeBalance;
 	int numCheck, numDeposit;
 
+	//opens the files and throws an error if it fails
 	if (!(fpIn = fopen("account.txt", "r"))) {
 		printf("account.txt could not be opened for input.");
 		exit(1);
@@ -46,8 +47,11 @@ int main() {
 
 	outputHeaders();
 
+	//Runs while the end of the file has not been reached
 	while (!feof(fpIn)) {
+		//gets the data from the file
 		fscanf(fpIn, "%c %lf\n", &code, &amount);
+		//checks the data code for the accompanying value
 		if (code == 'I') {
 			initialBalance(amount, &balance, &service, &openBalance);
 		}
@@ -60,6 +64,7 @@ int main() {
 	}
 
 	closeBalance = balance - service;
+	//outputs the monthly account summary
 	outputSummary(numDeposit, amtDeposit, numCheck, amtCheck, openBalance, service, closeBalance);
 	fclose(fpIn);
 	fclose(fpOut);
@@ -68,6 +73,7 @@ int main() {
 	return 0;
 }
 
+//outputs the headers
 void outputHeaders() {
 	printf("%-18s%10s%10s%10s\n", "Transaction", "Deposit", "Check", "Balance");
 	printf("%-18s%10s%10s%10s\n", "-----------", "-------", "-----", "-------");
@@ -75,6 +81,7 @@ void outputHeaders() {
 	fprintf(fpOut, "%-18s%10s%10s%10s\n", "-----------", "-------", "-----", "-------");
 }
 
+//sets the initial balance
 void initialBalance(double amount, double *balance, double *service, double *openBalance) {
 	*balance = amount;
 	*openBalance = amount;
@@ -83,6 +90,7 @@ void initialBalance(double amount, double *balance, double *service, double *ope
 	fprintf(fpOut, "%-18s%10s%10s%10.2lf\n", "Initial Balance", "", "", *balance);
 }
 
+//Deposits money into the account
 void deposit(double amount, double *balance, double *service, int *numDeposit, double *amtDeposit) {
 	*balance += amount;
 	*amtDeposit += amount;
@@ -92,6 +100,7 @@ void deposit(double amount, double *balance, double *service, int *numDeposit, d
 	fprintf(fpOut, "%-18s%10.2lf%10s%10.2lf\n", "Deposit", amount, "", *balance);
 }
 
+//Withdraws money from the account via a check
 void check(double amount, double *balance, double *service, int *numCheck, double *amtCheck) {
 	*balance -= amount;
 	*amtCheck += amount;
@@ -103,6 +112,7 @@ void check(double amount, double *balance, double *service, int *numCheck, doubl
 	fprintf(fpOut, "%-18s%10s%10.2lf%10.2lf\n", "Check", "", amount, *balance);
 }
 
+//Displays the monthly summary on the console and sends it to the output file
 void outputSummary(int numDeposit, double amtDeposit, int numCheck, double amtCheck, double openBalance, double service, double closeBalance) {
 	printf("\n%21s: %d\n", "Total number deposits", numDeposit);
 	printf("%21s: %.2lf\n\n", "Total amount deposits", amtDeposit);

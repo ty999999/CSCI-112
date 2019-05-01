@@ -1,0 +1,3 @@
+﻿  Source.c
+c:\users\csit\source\repos\demobooks\demobooks\source.c(44): warning C4305: '=': truncation from 'double' to 'float'
+  demobooks.vcxproj -> C:\Users\csit\source\repos\demobooks\Debug\demobooks.exe

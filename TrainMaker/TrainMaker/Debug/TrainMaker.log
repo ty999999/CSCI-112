@@ -1,0 +1,6 @@
+﻿  Source.c
+c:\users\csit\source\repos\trainmaker\trainmaker\source.c(38): warning C4013: 'strncpy' undefined; assuming extern returning int
+c:\users\csit\source\repos\trainmaker\trainmaker\source.c(43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\csit\source\repos\trainmaker\trainmaker\source.c(33): warning C4101: 'type': unreferenced local variable
+c:\users\csit\source\repos\trainmaker\trainmaker\source.c(106): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+  TrainMaker.vcxproj -> C:\Users\csit\source\repos\TrainMaker\Debug\TrainMaker.exe

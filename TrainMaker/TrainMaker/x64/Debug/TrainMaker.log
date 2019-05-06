@@ -1,0 +1,4 @@
+﻿  Source.c
+c:\users\csit\downloads\csci-112-master\csci-112-master\trainmaker\trainmaker\source.c(46): warning C4013: 'strncpy' undefined; assuming extern returning int
+c:\users\csit\downloads\csci-112-master\csci-112-master\trainmaker\trainmaker\source.c(51): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  TrainMaker.vcxproj -> C:\Users\csit\Downloads\CSCI-112-master\CSCI-112-master\TrainMaker\x64\Debug\TrainMaker.exe
